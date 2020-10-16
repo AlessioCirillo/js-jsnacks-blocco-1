@@ -1,3 +1,4 @@
+//JSNACK1
 
 var numero1 = parseInt( prompt ('inserisci numero 1') );
 var numero2 = parseInt( prompt ('inserisci numero 2') );
@@ -11,6 +12,7 @@ if (numero1 > numero2){
 }
 
 
+//JSNACK2
 
 var parola1= prompt ('inserisci la prima parola');
 var parola2= prompt ('inserisci la seconda parola');
@@ -24,3 +26,17 @@ if (parola1.length > parola2.length) {
 } else {
      document.getElementById ('jsnack-2').innerHTML= 'le parole sono della stessa lunghezza';
 }
+
+
+//JSNACK3
+
+var somma = 0;
+
+for ( var i = 0; i < 5; i++){
+    var numeri = parseInt(prompt ('inserisci un numero'));
+  
+    somma += numeri;
+}
+
+document.getElementById ('jsnack-3').innerHTML = 'la somma dei numeri è ' + somma;
+
