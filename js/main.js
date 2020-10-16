@@ -40,3 +40,42 @@ for ( var i = 0; i < 5; i++){
 
 document.getElementById ('jsnack-3').innerHTML = 'la somma dei numeri è ' + somma;
 
+
+//JSNACK4
+
+var invitati = [ 'Paolo', 'Fabio', 'Lorenzo', 'Alessio' ];
+
+var nome = prompt ('inserisci il tuo nome').toLocaleLowerCase();
+console.log(nome);
+
+var found = false;
+
+for (var i = 0; i < invitati.length; i++) {
+     var item = invitati[i];
+
+        if ( nome == item){
+            found = true;
+        }
+}
+
+if ( found = true) {
+    document.getElementById ('jsnack-4').innerHTML = 'nome trovato';
+} else {
+    document.getElementById ('jsnack-4').innerHTML = 'nome non trovato';
+}
+
+
+//JSNACK5
+
+var array = [];
+
+for ( var i = 0; i < 6; i++) {
+    var askNumber = parseInt ( prompt ('inserisci un numero'));
+    console.log(askNumber);
+
+    if ( askNumber % 2 != 0){
+        array.push(askNumber);
+    }
+}
+
+console.log(array);
