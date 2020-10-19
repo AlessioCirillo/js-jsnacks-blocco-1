@@ -1,6 +1,6 @@
 //JSNACK1
 
-var numero1 = parseInt( prompt ('inserisci numero 1') );
+/*var numero1 = parseInt( prompt ('inserisci numero 1') );
 var numero2 = parseInt( prompt ('inserisci numero 2') );
 
 if (numero1 > numero2){
@@ -38,24 +38,26 @@ for ( var i = 0; i < 5; i++){
     somma += numeri;
 }
 
-document.getElementById ('jsnack-3').innerHTML = 'la somma dei numeri è ' + somma;
+document.getElementById ('jsnack-3').innerHTML = 'la somma dei numeri è ' + somma;*/
 
 
 //JSNACK4
 
 var invitati = [ 'Paolo', 'Fabio', 'Lorenzo', 'Alessio' ];
 
-var nome = prompt ('inserisci il tuo nome').toLocaleLowerCase();
+var nome = prompt ('inserisci il tuo nome');
 console.log(nome);
 
 var found = false;
 
 for (var i = 0; i < invitati.length; i++) {
-     var item = invitati[i];
+        var item = invitati[i];
 
-        if ( nome == item){
+        if ( nome.toLowerCase() == item.toLowerCase()){
+            
             found = true;
         }
+            
 }
 
 if ( found = true) {
@@ -67,7 +69,7 @@ if ( found = true) {
 
 //JSNACK5
 
-var array = [];
+/*var array = [];
 
 for ( var i = 0; i < 6; i++) {
     var askNumber = parseInt ( prompt ('inserisci un numero'));
@@ -78,4 +80,4 @@ for ( var i = 0; i < 6; i++) {
     }
 }
 
-console.log(array);
+console.log(array);*/
