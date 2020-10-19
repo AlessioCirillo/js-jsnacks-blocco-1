@@ -1,6 +1,6 @@
 //JSNACK1
 
-/*var numero1 = parseInt( prompt ('inserisci numero 1') );
+var numero1 = parseInt( prompt ('inserisci numero 1') );
 var numero2 = parseInt( prompt ('inserisci numero 2') );
 
 if (numero1 > numero2){
@@ -38,7 +38,7 @@ for ( var i = 0; i < 5; i++){
     somma += numeri;
 }
 
-document.getElementById ('jsnack-3').innerHTML = 'la somma dei numeri è ' + somma;*/
+document.getElementById ('jsnack-3').innerHTML = 'la somma dei numeri è ' + somma;
 
 
 //JSNACK4
@@ -53,14 +53,14 @@ var found = false;
 for (var i = 0; i < invitati.length; i++) {
         var item = invitati[i];
 
-        if ( nome.toLowerCase() == item.toLowerCase()){
+        if ( nome.toLowerCase() == item.toLowerCase() ){
             
             found = true;
         }
             
 }
 
-if ( found = true) {
+if ( found === true) {
     document.getElementById ('jsnack-4').innerHTML = 'nome trovato';
 } else {
     document.getElementById ('jsnack-4').innerHTML = 'nome non trovato';
@@ -69,7 +69,7 @@ if ( found = true) {
 
 //JSNACK5
 
-/*var array = [];
+var array = [];
 
 for ( var i = 0; i < 6; i++) {
     var askNumber = parseInt ( prompt ('inserisci un numero'));
@@ -80,4 +80,4 @@ for ( var i = 0; i < 6; i++) {
     }
 }
 
-console.log(array);*/
+console.log(array);
